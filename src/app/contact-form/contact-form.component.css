@@ -1,0 +1,94 @@
+.body{
+  width: 100vw;
+  height: 593px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 0.5fr auto;
+  position: relative;
+  background-image: url('/assets/background/4.jpg') !important;
+      background-size: cover;
+      background-position: center center;
+}
+
+.title{
+  color: #ea1d6f;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  text-shadow: -1px -1px 0px paleturquoise,
+    3px 3px 0px whitesmoke,
+    6px 6px 0px paleturquoise;
+}
+
+/* .button {
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+  background: blueviolet;
+  border-radius: 2px;
+  transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+} */
+button:focus {
+  outline: none;
+}
+
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+.textarea {
+height: 150px;
+width: 200px;
+background:paleturquoise;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: red;
+}
+
+.contact-animation {
+  -webkit-animation: arrow-jump 2s ease-in; /* Safari 4+ */
+  -moz-animation:    arrow-jump 2s ease-in; /* Fx 5+ */
+  -o-animation:      arrow-jump 2s ease-in; /* Opera 12+ */
+  animation:         arrow-jump 2s ease-in; /* IE 10+, Fx 29+ */
+}
+
+.button__circle {
+  width: 120px;
+  height: 120px;
+  background: mediumseagreen;
+  border-radius: 50%;
+  transform: rotate(-180deg);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.tick {
+  color: white;
+  font-size: 2em;
+  transition: all .9s;
+}
+
+body, .button, .tick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}

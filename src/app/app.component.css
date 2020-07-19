@@ -1,0 +1,109 @@
+
+
+/* Application-wide Styles */
+:host {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+}
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  align-content: center;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #333;
+  font-family: Cambria, Georgia;
+}
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  width: 100vw;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 0.5fr auto;
+  position: relative;
+}
+
+.body{
+  width: 100vw;
+  height: 593px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 0.5fr auto;
+  position: relative;
+  background-image: url('/assets/background/3.jpg') !important;
+      background-size: cover;
+      background-position: center center;
+}
+
+.footer{
+  width: 100vw;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 0.5fr auto;
+  position: relative;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-card{
+    margin-top: 4px;
+}
+
+.example-header-image { 
+  background-size: cover;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.img-article{
+    height: 350px;
+}
+
+.action-buttons{
+    text-align: center;
+}
+
+.example-container {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(111, 111, 111, 0.50);
+}
+
+.example-sidenav-content {
+    display: flex;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
+.example-sidenav {
+    padding: 20px;
+}
+
+.source-name {
+    margin-left:5px; 
+}
+
+.list-item:hover{
+    cursor: pointer;
+    background-color: #3f51b5;
+    color: white;
+}

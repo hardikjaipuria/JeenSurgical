@@ -1,0 +1,21 @@
+
+.images{
+	 width: 100vw;
+     height: 250px;
+}
+
+h2{
+	text-align: center;
+	color: blue;
+}
+.body{
+  width: 100vw;
+  height: 593px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 0.5fr auto;
+  position: relative;
+  background-image: url('/assets/background/3.jpg') !important;
+      background-size: cover;
+      background-position: center center;
+}

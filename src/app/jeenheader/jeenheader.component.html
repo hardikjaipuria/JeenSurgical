@@ -1,0 +1,22 @@
+<div fxLayout="row" fxLayoutAlign="space-around center" >
+
+<mat-toolbar role="heading" color="primary" >
+	<mat-toolbar-row>
+	  <span>
+      <mat-icon>clean_hands</mat-icon>       Welcome to Jeen Surgical 
+	  </span>
+<div class="spacer"></div>
+
+<div>
+<button mat-button routerLink="home" routerLinkActive="active" nbPopover="ppopover!" >Home</button>
+<button mat-button routerLink="products" routerLinkActive="active" >Products</button>  
+<button mat-button routerLink="about" routerLinkActive="active">About</button>
+<button mat-button color="accent" routerLink="contact" routerLinkActive="active">Enquiry</button>
+<app-themechange [options]="options$ | async"
+      (themeChange)="themeChangeHandler($event)">
+</app-themechange>
+</div>
+</mat-toolbar-row>
+</mat-toolbar>
+</div>
+

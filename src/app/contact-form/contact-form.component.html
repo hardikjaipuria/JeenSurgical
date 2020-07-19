@@ -1,0 +1,18 @@
+<div class="container">
+
+<h1 class="title"> Please send us your enquiry.</h1>
+<br/><br/><br/>
+
+<form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)" >
+  <input type = "text" name = "fullName" style="background:paleturquoise;" placeholder = "Your full name" ngModel>
+  <br/><br/>
+
+  <input type = "email" name = "email" style="background:paleturquoise;" placeholder = "Your email" ngModel>
+  <br/><br/>
+
+  <textarea mat-textarea name = "message" placeholder = "Your message" class="textarea" ngModel></textarea>
+  <br/><br/>
+  <button mat-raised-button color="primary"  type = "submit"><span style="color: white;">Send </span></button>
+</form>
+
+</div>

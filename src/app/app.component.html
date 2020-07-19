@@ -1,0 +1,11 @@
+
+
+<app-jeenheader></app-jeenheader>
+<div class="alternate-theme">
+<div class="body" [@routeAnimations]="o && o.activatedRouteData 
+      && o.activatedRouteData['animation']">
+    <router-outlet #o="outlet"></router-outlet>
+</div>
+</div>
+<app-jeenfooter fxLayout="column"></app-jeenfooter>
+

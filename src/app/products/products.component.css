@@ -1,0 +1,29 @@
+h1{
+	color: red
+}
+
+
+.product-card{
+	 height: 225px;
+    max-width: 300px;
+    margin:30px;
+    float: left;
+}
+
+
+.body{
+  width: 100vw;
+  height: 593px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 0.5fr auto;
+  position: relative;
+  background-image: url('/assets/background/3.jpg') !important;
+      background-size: cover;
+      background-position: center center;
+}
+
+cdk-virtual-scroll-viewport {
+   height: 500px;
+}
+
