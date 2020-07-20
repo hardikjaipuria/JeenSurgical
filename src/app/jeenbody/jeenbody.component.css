@@ -8,7 +8,7 @@ h2{
 	text-align: center;
 	color: blue;
 }
-.body{
+/* .body{
   width: 100vw;
   height: 593px;
   display: grid;
@@ -18,4 +18,4 @@ h2{
   background-image: url('/assets/background/3.jpg') !important;
       background-size: cover;
       background-position: center center;
-}
+} */

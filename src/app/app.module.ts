@@ -16,11 +16,14 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTabsModule  } from '@angular/material/tabs';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatSidenavModule  } from '@angular/material/sidenav';
+import { MatListModule  } from '@angular/material/list';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {CdkScrollableModule} from '@angular/cdk/scrolling';
 import { HttpClientModule } from '@angular/common/http';
+import {LayoutModule} from '@angular/cdk/layout';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -67,12 +70,15 @@ import { ThemechangeComponent } from './themechange/themechange.component';
     MatTabsModule,
     MatSnackBarModule,
     MatMenuModule,
+    MatSidenavModule,
+    MatListModule,
     FormsModule,
     ReactiveFormsModule,
     FlexLayoutModule,
     CdkScrollableModule,
     ScrollingModule,
-    HttpClientModule
+    HttpClientModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
